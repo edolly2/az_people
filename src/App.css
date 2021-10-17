@@ -1,0 +1,9 @@
+.header-icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  font-size: 4rem;
+}
