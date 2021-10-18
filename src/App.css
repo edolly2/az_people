@@ -1,9 +1,83 @@
+.App {
+  padding: 1.6rem;
+}
+
+header {
+}
+
 .header-icon-container {
+  /* padding: 1.6rem; */
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .icons {
-  font-size: 4rem;
+  font-size: 4.4rem;
+  cursor: pointer;
+  color: blue;
+  margin: 0 0.8rem;
+  margin-bottom: -0.5rem;
+  background-clip: "svg";
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.icons:last-of-type {
+}
+
+.icons:hover {
+  color: red;
+  transform: scale(1.1, 1.1);
+}
+
+.profile-menu-container {
+  background-color: green;
+  max-width: 20%;
+  margin-left: auto;
+  min-height: 50vh;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-menu-container h2,
+p {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.profile-menu-container h3:last-of-type,
+.main-menu-container h3:last-of-type {
+  margin-top: 1.6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-menu-container {
+  min-width: 25%;
+  max-width: 25%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: green;
+  padding: 1.6rem;
+}
+
+.main-menu-container h2 {
+  text-align: center;
+}
+
+.main-menu-container h3 {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.drop-icons {
+  font-size: 2rem;
+  margin-left: 0.5rem;
 }
